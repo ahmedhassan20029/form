@@ -1,3 +1,4 @@
+/*
 <?php
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     /* varibals data */
@@ -12,6 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 }
 
 ?>
+*/
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
     <head>
@@ -36,13 +38,16 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 </form>
                 <!--end form -->
             </div>
+        <!--
             <div class='container'>
                 <?php 
                     if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         echo '<P class="message-dane">تم ارسال رسالتك</p>';
                     }
                 ?>
+
             </div>
+-->
         <!-- files js -->
         <script src='js/jquery-3.5.1.min.js'></script>
         <script src='js/bootstrap.bundle.min.js'></script>
