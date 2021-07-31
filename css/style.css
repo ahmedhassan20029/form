@@ -1,0 +1,23 @@
+form {
+  max-width: 500px;
+  margin: 50px auto;
+}
+form input,
+form textarea {
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.message-dane {
+  background: #74e992;
+  max-width: 491px;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+  color: #4f4b4b;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
